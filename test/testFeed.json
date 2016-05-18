@@ -1,0 +1,29 @@
+{
+	
+   "error": false,
+   "message": "User created successfully!",
+   "data":{  
+        
+         "feed":[
+             
+                  {
+                    "id": 1,
+                     "name": "TIME",
+                     "image": "http://192.168.56.1/ToreyProject/test/img/gods_splendour.jpg",
+                     "status": "30 years of Cirque du Soleil's best photos",
+                     "profilePic": "http://192.168.56.1/ToreyProject/test/img/Eiffel-Tower1.jpg",
+                     "timeStamp": "1403375851930"
+                    
+                 },
+                 {
+                     "id": 2,
+                     "name": "National Geographic Channel",
+                     "image": "http://192.168.56.1/ToreyProject/test/img/silhouette002_xperia.jpg",
+                     "status": "\"Science is a beautiful and emotional human endeavor,\" says Brannon Braga, executive producer and director. \"And Cosmos is all about making science an experience.\"",
+                     "profilePic": "http://192.168.56.1/ToreyProject/test/img/pebbles.jpg",
+                     "timeStamp": "1403375851930"
+                 }
+              ]
+        }
+		
+}

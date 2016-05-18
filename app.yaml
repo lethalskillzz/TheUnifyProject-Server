@@ -1,0 +1,25 @@
+application: theunifyproject-1218
+version: 1
+module: default
+runtime: php55
+api_version: 1
+
+handlers:
+
+- url: /(.+\.(ico|jpg|png|gif))$
+  static_files: \1
+  upload: (.+\.(ico|jpg|png|gif))$
+  application_readable: true
+
+- url: /(.+\.(htm|html|css|js|pdf))$
+  static_files: \1
+  upload: (.+\.(htm|html|css|js|pdf))$
+  application_readable: true
+
+- url: /(.+).php
+  script: \1.php
+
+- url: /
+  script: index.php
+
+

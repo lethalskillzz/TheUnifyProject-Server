@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>JavaScript onClick Example</title>
+
+<script language="JavaScript">
+<!--
+function popup(msg) {
+alert(msg)
+}
+
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));  
+}
+//-->
+</script>
+
+</head>
+<body>
+    
+   <script type="text/javascript"> popup(getParameterByName('name')); </script>
+<form action="SampleServlet" method="POST">
+ First Number: <input type="text" name="num1" size="20"><br>
+ Second Number: <input type="text" name="num2" size="20">
+ <br><br>
+ <input type="submit" onclick="popup()"value="Add">
+</form>
+</body>
+</html>
