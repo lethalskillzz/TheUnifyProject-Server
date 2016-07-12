@@ -677,7 +677,7 @@ class AuthenticationFunctions {
         return substr(md5(uniqid(mt_rand(), true)), 0, 16);
     }
 
-
+    //Generates unique username
     private function generateUsername($fullname) {
 
         $uname = preg_replace('/\s+/', '', $fullname);
@@ -693,6 +693,7 @@ class AuthenticationFunctions {
         else return $uname;
     }
 
+    //Generates OTP
     private function generateOtp() {
         $otp = substr(md5(uniqid(mt_rand(), true)), 0, 6);
         return $otp;
