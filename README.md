@@ -1,4 +1,4 @@
-# TheUnifyProject-Server-
+# TheUnifyProject Server
 
  A social media platform with utility features developed for student of Federal University of Technology, Minna, using the PHP.<br><br>
 
